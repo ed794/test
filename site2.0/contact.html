@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma de Construcții</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Acasă</a>
+        <a href="about.html">Despre Noi</a>
+        <a href="services.html">Servicii</a>
+        <a href="projects.html">Proiecte</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+     
+    <div id="contact" class="container">
+        <p class="introducere">Contact</p>
+        <p>Ne puteți contacta la:</p>
+        <p><strong>Email:</strong> <b>ediboss641@gmail.com</b></p>
+        <p><strong>Telefon:</strong> <b>+40 712 345 678</b></p>
+        <form action="send_email.php" method="post">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Trimite">
+        </form>
+    </div>
+</body>
+</html>

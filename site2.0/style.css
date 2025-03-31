@@ -1,0 +1,161 @@
+body {
+    background-image:url("images/vecteezy_silhouette-of-engineer-looking-at-construction-site_22453397.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background: #333;
+    padding: 1.8%;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 150%;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f4a261;
+}
+
+.container {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    padding: 16px 28px;
+    background: rgb(2, 117, 79);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 24px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: rgb(183, 235, 245);
+    color: black;
+    cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .navbar a {
+        font-size: 16px;
+    }
+    .container {
+        width: 90%;
+    }
+    .button {
+        padding: 15px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 10px 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar a {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+}
+
+.introducere {
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.introducere_1 {
+    font-size: 150%;
+}
+
+#contact {
+    background: white;
+    padding: 40px;
+    width: 69%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#contact input[type="submit"]:hover {
+    background: darkblue;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
